@@ -9,13 +9,13 @@ knitr::opts_chunk$set(
 ## ----setup, warning=FALSE-----------------------------------------------------
 library(ggip)
 
-## ---- echo=FALSE, out.width="100%"--------------------------------------------
+## ---- out.width="100%"--------------------------------------------------------
 knitr::include_graphics("bits_raw.png")
 
-## ---- echo=FALSE, out.width="100%"--------------------------------------------
+## ---- out.width="100%"--------------------------------------------------------
 knitr::include_graphics("bits_half_reduced.png")
 
-## ---- echo=FALSE, out.width="100%"--------------------------------------------
+## ---- out.width="100%"--------------------------------------------------------
 knitr::include_graphics("bits_reduced.png")
 
 ## ----plot_func----------------------------------------------------------------
@@ -28,7 +28,7 @@ plot_curve <- function(curve, curve_order) {
   pixel_prefix <- 32L
   canvas_prefix <- as.integer(pixel_prefix - (2 * curve_order))
   canvas_network <- ip_network(ip_address("0.0.0.0"), canvas_prefix)
-  n_pixels <- 2 ^ curve_order
+  n_pixels <- 2^curve_order
   
   ggplot(data.frame(address = seq(canvas_network))) +
     geom_path(aes(address$x, address$y)) +
@@ -54,4 +54,26 @@ plot_curve("hilbert", 4)
 plot_curve("morton", 2)
 plot_curve("morton", 3)
 plot_curve("morton", 4)
+
+## ---- echo=TRUE, eval=FALSE---------------------------------------------------
+#  coord_ip(
+#    canvas_prefix = ip_network("0.0.0.0/0"),
+#    pixel_prefix = 4,
+#    curve = "hilbert"
+#  )
+
+## ---- fig.align="center", fig.asp=1, fig.width=5------------------------------
+curve_order <- 2
+pixel_prefix <- 2 * curve_order
+vertices <- subnets(ip_network("0.0.0.0/0"), new_prefix = pixel_prefix)
+
+data <- data.frame(ip = network_address(vertices), label = as.character(vertices))
+nudge <- c(1, 0, 0, 1, 1, 1, 0, 0, 0, 0, -1, -1, -1, 0, 0, -1)
+
+ggplot(data, aes(ip$x, ip$y)) +
+  geom_path() +
+  geom_label(aes(label = label), nudge_x = 0.2 * nudge) +
+  coord_ip(pixel_prefix = pixel_prefix, expand = TRUE) +
+  theme_ip_light() +
+  labs(title = paste0("Hilbert curve: ", curve_order, ordinal_suffix(curve_order), " order"))
 
