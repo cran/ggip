@@ -1,3 +1,8 @@
+# ggip 0.2.1
+
+Resolve CRAN check notes about HTML5 by upgrading to latest {roxygen}.
+
+
 # ggip 0.2.0
 
 * A new layer `geom_hilbert_outline()` can overlay the outline of the Hilbert curve. This can guide the eye to regions that are close in IP address space (#16).
