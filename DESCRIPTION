@@ -1,6 +1,6 @@
 Package: ggip
 Title: Data Visualization for IP Addresses and Networks
-Version: 0.2.1
+Version: 0.2.2
 Authors@R: 
     person("David", "Hall", , "david.hall.physics@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-2193-0480"))
@@ -24,8 +24,8 @@ Encoding: UTF-8
 RoxygenNote: 7.2.1
 SystemRequirements: C++11
 NeedsCompilation: yes
-Packaged: 2022-08-13 22:27:29 UTC; davidhall
+Packaged: 2022-09-28 15:13:35 UTC; davidhall
 Author: David Hall [aut, cre] (<https://orcid.org/0000-0002-2193-0480>)
 Maintainer: David Hall <david.hall.physics@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-08-13 22:40:02 UTC
+Date/Publication: 2022-09-29 06:00:02 UTC

@@ -1,11 +1,11 @@
-a2b8595cb2664e2bf71735553be254a4 *DESCRIPTION
+009897b7520d5796b9e0ba74dbdbd303 *DESCRIPTION
 eee75bd9572b80233ee9806d5bba6c7e *LICENSE
 251fa1e82f1d6698f99405baf1e8a3bd *NAMESPACE
-a49424ec8bc4151941e9448e17723f92 *NEWS.md
+c1a7048be3feacf7c4384a91aa66b990 *NEWS.md
 47bcb30ecf396f76539db8ea69300684 *R/RcppExports.R
 fbf17067051a244ff6be7147660c2de1 *R/coord-ip.R
 80c63d18db713f7a1ad38959eb78e81b *R/error.R
-5b8b43145ef2fd4afa24b590cfcc026f *R/geom-hilbert-outline.R
+3150d85f5deb0f7dd60c8babc2ea3f1d *R/geom-hilbert-outline.R
 8c13eb2570144918fc9f7dd87f31c353 *R/ggip-package.R
 8740e64036419cb3e1a214b61e8da0dc *R/ip_to_cartesian.R
 fc3bf2a8899fd9d561e675e533e8da99 *R/stat-summary-address.R
@@ -15,7 +15,7 @@ f22d004843342b2777f91559a126bded *README.md
 2bba68afcf45c0e9858d263d784b7c8f *build/vignette.rds
 2d2a6a13b5cabb9fa998b5cec11cc8c3 *inst/doc/ggip.R
 4bcdc317a06dbacdf6c1a0c6a2e12060 *inst/doc/ggip.Rmd
-c93d24bf659ceff5ad3cbbc76a926159 *inst/doc/ggip.html
+3045ac767a7ec6f9d603977b26bd4f0d *inst/doc/ggip.html
 e5f0e90eed5b979b5327d9f8c79cf301 *inst/doc/visualizing-ip-data.R
 77f9c8cb0e15a7bcb90857b03cefbdcd *inst/doc/visualizing-ip-data.Rmd
 54ee42cd6dc3a496eccc99e631868e21 *inst/doc/visualizing-ip-data.html
