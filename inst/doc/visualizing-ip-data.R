@@ -57,7 +57,7 @@ plot_curve("morton", 4)
 
 ## ---- echo=TRUE, eval=FALSE---------------------------------------------------
 #  coord_ip(
-#    canvas_prefix = ip_network("0.0.0.0/0"),
+#    canvas_network = ip_network("0.0.0.0/0"),
 #    pixel_prefix = 4,
 #    curve = "hilbert"
 #  )
