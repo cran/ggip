@@ -65,7 +65,7 @@ plot_curve("morton", 4)
 ## ---- fig.align="center", fig.asp=1, fig.width=5------------------------------
 curve_order <- 2
 pixel_prefix <- 2 * curve_order
-vertices <- subnets(ip_network("0.0.0.0/0"), new_prefix = pixel_prefix)
+vertices <- subnets(ip_network("0.0.0.0/0"), new_prefix = pixel_prefix)[[1]]
 
 data <- data.frame(ip = network_address(vertices), label = as.character(vertices))
 nudge <- c(1, 0, 0, 1, 1, 1, 0, 0, 0, 0, -1, -1, -1, 0, 0, -1)

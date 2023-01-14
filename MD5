@@ -1,10 +1,10 @@
-9d9112b900d6d20a2c4256e2725665ab *DESCRIPTION
+cb82060999b55927358478be23459b20 *DESCRIPTION
 eee75bd9572b80233ee9806d5bba6c7e *LICENSE
 44da71a999394853d9575555b753cafa *NAMESPACE
-88a77b9daa0aa3c12ad0b08e6b2d61a5 *NEWS.md
+f6b81392594f8c59b863eb50cae78abd *NEWS.md
 47bcb30ecf396f76539db8ea69300684 *R/RcppExports.R
 fbf17067051a244ff6be7147660c2de1 *R/coord-ip.R
-0b8d510bf8edfe3f0c434f1dd80d9c79 *R/geom-hilbert-outline.R
+9f7a3d286e2c3012c99c4fa1efd999cc *R/geom-hilbert-outline.R
 8c13eb2570144918fc9f7dd87f31c353 *R/ggip-package.R
 3775686dd97e8dfaaea12a3495f260c3 *R/ip_to_cartesian.R
 1e32801781f86d6a38ac1c04b03ef342 *R/stat-summary-address.R
@@ -15,10 +15,10 @@ f22d004843342b2777f91559a126bded *README.md
 21035f81b349771287ee95b58afdaaf3 *build/vignette.rds
 2d2a6a13b5cabb9fa998b5cec11cc8c3 *inst/doc/ggip.R
 4bcdc317a06dbacdf6c1a0c6a2e12060 *inst/doc/ggip.Rmd
-d107911390f3007e13f7da2763ff9787 *inst/doc/ggip.html
-b5d75819b5f3feaf54374b302369e2ba *inst/doc/visualizing-ip-data.R
-698071e4598b8d2de7303782d715a5b4 *inst/doc/visualizing-ip-data.Rmd
-128cf4364645ac657083df4a8c0d9821 *inst/doc/visualizing-ip-data.html
+629873d31d807866807616dc6fdc3188 *inst/doc/ggip.html
+5927442b2e9f28fee87468c86cfd5282 *inst/doc/visualizing-ip-data.R
+54d2e99284348121aa013d0e187158f8 *inst/doc/visualizing-ip-data.Rmd
+cf6ba239b34637af25fd99500f30005f *inst/doc/visualizing-ip-data.html
 cfd208de15c40bb4969a7bddb27b218e *man/coord_ip.Rd
 6ee833eb4523807d03779309dd1094de *man/figures/README-ipv4-heatmap-1.png
 db8de349328132acab2b2d04fdde3c9d *man/figures/logo.png
@@ -35,7 +35,7 @@ a254976b36d5b328681b6e7c3225cf56 *src/curves.h
 d0584a92ea290fa9e18d4529fe17aba1 *src/mapping.h
 b4eb60b5dcaa16984f81cc3f8b216a22 *src/network_to_bbox.cpp
 5e896e6d6eb3d38a3a65e56b1183c5d0 *tests/testthat.R
-8d59cba6f2320c953186bffcc95e2ae2 *tests/testthat/Rplots.pdf
+1bb0355a92d214ff530961bb7f0961e1 *tests/testthat/Rplots.pdf
 0b15451a9079f5d4995ea715cedc3dd3 *tests/testthat/_snaps/geom-hilbert-outline.md
 b9189c6ebbc9978f7ae77534aac56210 *tests/testthat/_snaps/ip_to_cartesian.md
 518dca1aa34f992bd4f65e5353bc008b *tests/testthat/_snaps/stat-summary-address.md
@@ -49,4 +49,4 @@ e43b37c75a020abf41806431c556eada *tests/testthat/test-stat-summary-address.R
 4485a7c1400430d2c366238ca2ab6629 *vignettes/bits_raw.png
 a96c725b99504f2c85d6448acfcc50d5 *vignettes/bits_reduced.png
 4bcdc317a06dbacdf6c1a0c6a2e12060 *vignettes/ggip.Rmd
-698071e4598b8d2de7303782d715a5b4 *vignettes/visualizing-ip-data.Rmd
+54d2e99284348121aa013d0e187158f8 *vignettes/visualizing-ip-data.Rmd
