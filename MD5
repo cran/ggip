@@ -1,7 +1,7 @@
-cb82060999b55927358478be23459b20 *DESCRIPTION
+8aebcabf41bd8374928db24d6829fa3a *DESCRIPTION
 eee75bd9572b80233ee9806d5bba6c7e *LICENSE
 44da71a999394853d9575555b753cafa *NAMESPACE
-f6b81392594f8c59b863eb50cae78abd *NEWS.md
+50e361efeb9812c12bf5d68b3775b757 *NEWS.md
 47bcb30ecf396f76539db8ea69300684 *R/RcppExports.R
 fbf17067051a244ff6be7147660c2de1 *R/coord-ip.R
 9f7a3d286e2c3012c99c4fa1efd999cc *R/geom-hilbert-outline.R
@@ -15,7 +15,7 @@ f22d004843342b2777f91559a126bded *README.md
 21035f81b349771287ee95b58afdaaf3 *build/vignette.rds
 2d2a6a13b5cabb9fa998b5cec11cc8c3 *inst/doc/ggip.R
 4bcdc317a06dbacdf6c1a0c6a2e12060 *inst/doc/ggip.Rmd
-629873d31d807866807616dc6fdc3188 *inst/doc/ggip.html
+9798d31688539a449f1c4b604664ad42 *inst/doc/ggip.html
 5927442b2e9f28fee87468c86cfd5282 *inst/doc/visualizing-ip-data.R
 54d2e99284348121aa013d0e187158f8 *inst/doc/visualizing-ip-data.Rmd
 cf6ba239b34637af25fd99500f30005f *inst/doc/visualizing-ip-data.html
@@ -35,7 +35,7 @@ a254976b36d5b328681b6e7c3225cf56 *src/curves.h
 d0584a92ea290fa9e18d4529fe17aba1 *src/mapping.h
 b4eb60b5dcaa16984f81cc3f8b216a22 *src/network_to_bbox.cpp
 5e896e6d6eb3d38a3a65e56b1183c5d0 *tests/testthat.R
-1bb0355a92d214ff530961bb7f0961e1 *tests/testthat/Rplots.pdf
+6ae2102bbcdf71c69e07b9a4a7e08073 *tests/testthat/Rplots.pdf
 0b15451a9079f5d4995ea715cedc3dd3 *tests/testthat/_snaps/geom-hilbert-outline.md
 b9189c6ebbc9978f7ae77534aac56210 *tests/testthat/_snaps/ip_to_cartesian.md
 518dca1aa34f992bd4f65e5353bc008b *tests/testthat/_snaps/stat-summary-address.md
